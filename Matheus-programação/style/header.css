@@ -40,12 +40,13 @@
 
 .lista-menu__titulo,
 .lista-menu__item {
-padding: 1em;
-background-color: var(--branco);
+    padding: 1em;
+    background-color: var(--branco);
 }
 
 .lista-menu__titulo {
-color: var(--laranja);
+    color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
@@ -56,4 +57,8 @@ color: var(--laranja);
     text-transform: uppercase;
 
 
+}
+
+.container__botao{
+    display: none;
 }
